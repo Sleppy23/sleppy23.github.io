@@ -1,52 +1,61 @@
-
-body {
-  margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
-	background-image:url(images/backgrounds/subtle_white_mini_waves.png);
+header {
+  background-color: rgb(18, 231, 214);
+  height: 250px;
 }
 
-.logo {
-  font-family: "snell roundhand";
-  font-size: 80px;
-  color: #0ab0da;
-  text-align: center;
-  letter-spacing: 0;
+body{
+  background-color: rgb(107, 107, 107);
+}
+
+header h1 {
   margin: 0;
-  padding: 24px 0 0;
+  color: rgb(107, 107, 107);
+  font-family: 'Abril Fatface', cursive;
+  font-size:70px;
+  /* text-align: center; */
+  padding: 40px 0 2px 2px;
+  text-align: center;
 }
 
 header h2 {
-	font-family: 'Montserrat', serif;
-	color:#0ab0da;
-	margin: 0px;
-	font-size: 20px;
-	text-align: center;
-
-}
-
-section {
-	padding: 0 25%;
-  margin: 80px 0;
-}
-
-/* -------  Type ------- */
-
-h1, h2, h3 {
-  font-family: 'Montserrat Alternates', sans-serif;
-	color: #0f406893;
+  margin: 0;
+  color: rgb(107, 107, 107);
+  font-family: 'Abril Fatface', cursive;
+  font-size:52px;
+  /* text-align: center; */
+  padding: 40px 0 2px 2px;
   text-align: center;
-  font-weight: 500;
+  font-size: 30px;
 }
 
-h1 { font-size: 28px; }
-h2 { font-size: 26px; }
-h3 { font-size: 18px; }
-
-p, li {
- font-family: 'Montserrat', sans-serif;
- line-height: 1.5em;
- margin-bottom: 0;
+h3 {
+  margin: 0;
+  color: rgb(18, 231, 214);
+  font-family: 'Abril Fatface', cursive;
+  font-size:52px;
+  /* text-align: center; */
+  padding: 40px 0 2px 2px;
+  text-align: center;
+  font-size: 30px;
 }
+
+footer {
+    background-color: rgb(18, 231, 214);
+    margin: 200px 0 0 0;
+    padding: 20px 0;
+    color: rgb(107, 107, 107);
+}
+
+p {
+  padding-left: 20px;
+  text-align: center;
+}
+
+img, iframe { 
+  width: 100%;	
+  border-radius: 10px;
+  border: 1px solid rgb(18, 231, 214);
+} 
 
 a {
 	font-weight: 700;
@@ -60,19 +69,7 @@ a:hover {
 	text-decoration: underline;	
 }
 
-
-
-/* -------  Elements ------- */
-
-img, iframe { 
-  width: 100%;	
-  border-radius: 10px;
-  border: 1px solid #bd1212;
-} 
-
-
-.border-top {
-  padding-top: 50px;
-  border-top: 2px solid #e40c0c;
+section {
+	padding: 0 25%;
+  margin: 80px 0;
 }
-
