@@ -1,3 +1,4 @@
+/* this is the header */
 header {
   background-color: rgb(18, 231, 214);
   height: 250px;
@@ -6,7 +7,7 @@ header {
 body{
   background-color: rgb(107, 107, 107);
 }
-
+/* only working on heder 1 */
 header h1 {
   margin: 0;
   color: rgb(107, 107, 107);
@@ -16,7 +17,7 @@ header h1 {
   padding: 40px 0 2px 2px;
   text-align: center;
 }
-
+/* only working on heder 2 */
 header h2 {
   margin: 0;
   color: rgb(107, 107, 107);
@@ -27,7 +28,7 @@ header h2 {
   text-align: center;
   font-size: 30px;
 }
-
+/* only working on heder 3, many different h3 */
 h3 {
   margin: 0;
   color: rgb(18, 231, 214);
@@ -38,7 +39,7 @@ h3 {
   text-align: center;
   font-size: 30px;
 }
-
+/*  */
 footer {
     background-color: rgb(18, 231, 214);
     margin: 200px 0 0 0;
@@ -56,7 +57,7 @@ img, iframe {
   border-radius: 10px;
   border: 1px solid rgb(18, 231, 214);
 } 
-
+/* add styles to my links */
 a {
 	font-weight: 700;
 	text-decoration: none;	
